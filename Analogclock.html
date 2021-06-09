@@ -1,0 +1,89 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <style>
+        body{
+    background-color: rgb(15, 14, 14);
+    height: 95vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 2px solid rgb(160, 158, 160);
+    position:relative;
+    box-shadow: 40px 10px 40px;
+    color: rgb(73, 31, 31);
+}
+.second{
+    border-radius: 0% 50% 50% 0%;
+    background-color: rgb(54, 40, 40);
+    position: absolute;
+    width: 9rem;
+    height: .2rem;
+    top: 50%;
+    left: 50%;  
+    transform-origin: left;
+    transform: translateY(50%);
+
+    animation: sec 60s steps(60,end) infinite;   
+}
+.min{
+    border-radius: 0% 50% 50% 0%;
+    background-color: rgb(54, 40, 40);
+    position: absolute;
+    width: 8rem;
+    height: .2rem;
+    top: 50%;
+    left: 50%;  
+    transform-origin: left;
+    transform: translateY(50%);
+    animation: sec 300s linear infinite;   
+}
+.hour{
+    border-radius: 0% 50% 50% 0%;
+    background-color: rgb(54, 40, 40);
+    position:absolute;
+    width: 5rem;
+    height: .2rem;
+    top: 50%;
+    left: 50%;  
+    transform-origin: left;
+    transform: translateY(50%);
+    animation: sec 600s linear infinite;   
+}
+
+.center{
+    border-radius: 50%;
+    background-color: black;
+    width: 4%;
+    height: 4%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+} 
+@keyframes sec{
+    0%{transform: rotate(0deg); }
+    100%{transform: rotate(360deg);}
+}
+    </style>
+</head>
+<body>
+    <div class="circle">
+        <div class="center"></div>
+        <div class="min"></div>
+        <div class="hour"></div>
+        <div class="second"></div>
+        
+    </div>
+
+</body>
+</html>
