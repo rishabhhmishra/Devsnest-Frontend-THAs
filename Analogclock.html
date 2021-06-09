@@ -5,12 +5,13 @@
     <title>Analog Clock</title>
     <style>
         body{
-    background-color: rgb(15, 14, 14);
+   
     height: 95vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1535007726788-fed8106a64cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
 }
 .circle{
     height: 20rem;
@@ -18,12 +19,15 @@
     border-radius: 50%;
     border: 2px solid rgb(160, 158, 160);
     position:relative;
-    box-shadow: 40px 10px 40px;
-    color: rgb(73, 31, 31);
+    box-shadow: 10px 10px 20px 20px ;
+    color: rgba(105, 102, 105, 0.479);
+    background-image: url("https://image.freepik.com/free-photo/dark-grey-black-slate-texture-with-high-resolution-background-natural-black-stone-wall_38607-306.jpg");
+    
+    
 }
 .second{
     border-radius: 0% 50% 50% 0%;
-    background-color: rgb(54, 40, 40);
+    background-color: rgb(109, 52, 52);
     position: absolute;
     width: 9rem;
     height: .2rem;
@@ -36,7 +40,7 @@
 }
 .min{
     border-radius: 0% 50% 50% 0%;
-    background-color: rgb(54, 40, 40);
+    background-color: rgb(109, 52, 52);
     position: absolute;
     width: 8rem;
     height: .2rem;
@@ -48,7 +52,7 @@
 }
 .hour{
     border-radius: 0% 50% 50% 0%;
-    background-color: rgb(54, 40, 40);
+    background-color: rgb(109, 52, 52);
     position:absolute;
     width: 5rem;
     height: .2rem;
@@ -56,7 +60,7 @@
     left: 50%;  
     transform-origin: left;
     transform: translateY(50%);
-    animation: linear infinite;   
+    animation:  linear infinite;   
 }
 
 .center{
@@ -68,7 +72,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+   
 } 
 @keyframes sec{
     0%{transform: rotate(0deg); }
