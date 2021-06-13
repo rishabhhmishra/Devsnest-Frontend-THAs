@@ -27,7 +27,8 @@ body {
     font-size: 15px;
     font-weight: bolder;
   
-    background: transparent;
+       background-color: #e6e3e3;
+
     box-shadow: inset 2px 2px 5px #b6acac, inset -5px -5px 10px #797171;
   }
   
