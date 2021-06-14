@@ -57,7 +57,9 @@ window.onload = () => {
             case "+":
                 inputNum.value += "+";
                 break;
-            
+             case "%":
+                inputNum.value += "%";
+                break;
             case "-":
                 inputNum.value += "-";
                 break;
