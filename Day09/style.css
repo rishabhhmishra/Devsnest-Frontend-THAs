@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     background-color: rgb(113 106 106);
+  }
+  
+  .text {
+    display: flex;
+    margin: 3rem auto 2rem;
+  }
+  
+  .text h3,h2 {
+    font-size: 24px;
+    margin: 0rem 6rem;
+  }
+  .booked{
+    background-color: #161515;
+   color:#722715;
+      margin: 0rem 10rem;
+  }
+  .remaining{
+    background-color: #161515;
+    margin: 0rem 10rem;
+    color:#9c4834;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .container {
+    margin: 0 80px 20px;
+    border: 5px solid #502217;
+  }
+  
+  .container div {
+    flex: 2 1 auto;
+    width: 190px;
+    height: 120px;
+    border: 2px solid #502217;
+    cursor: pointer;
+  }
+  
+  .vaccant {
+    background-color: #9c4834;
+  }
+  
+  .container div:hover {
+    background-color: #722715;
+  }
+  
+  .taken {
+    background-color: #722715;
+  }
+  
