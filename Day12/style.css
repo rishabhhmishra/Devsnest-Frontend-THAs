@@ -13,13 +13,15 @@ body {
   align-items: center;
   justify-content: center;
   margin: 0;
+  background-color:#444;
+
 }
 
 h1 {
-  color: rgb(179, 131, 226);
-  font-size: 10rem;
+  color: #f1910e;
+  font-size: 5rem;
   text-align: center;
-  opacity: 0.4;
+  opacity: 0.8;
 }
 
 form {
