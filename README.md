@@ -8,6 +8,9 @@
  <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day08/index.html" "_blank">Day-08 (Checkbox Css Challenge)</a></li>
   <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day09/index.html" "_blank">Day-09 (Seat Booking)</a></li>
   <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day10/index.html" "_blank">Day-10 (Memory Game)</a></li>
+ <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day11/index.html" "_blank">Day-11 (Quiz Game)</a></li>
+ <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day12/index.html" "_blank">Day-12 (Todo List)</a></li>
+ <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day13/index.html" "_blank">Day-13 (Quotes Generator)</a></li>
  <li>Comming Soon..</li>
 
 </ul>
