@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #161617;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ada9a3;
+    width: 200px;
+    height: 50px;
+    padding: 16px;
+  }
+  
+  a {
+    color: #fffffe;
+    font-size: 1.4rem;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.6;
+  }
+  
+  i {
+    font-size: 1.6rem;
+    color: #ff8906;
+  }
