@@ -1,8 +1,6 @@
   
 "use strict";
 
-const e = React.createElement;
-
 class  Newclass extends React.Component {
   constructor(props) {
     super(props);
