@@ -14,7 +14,8 @@
   <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day14/index.html" "_blank">Day-14 (Event Handling app)</a></li>
    <li><a href="https://rishabhhmishra.github.io/Devsnest-Frontend-THAs/Day15/index.html" "_blank">Day-15 (React hello world without tooling)</a></li>
    <li><a href="https://rishabhdevsnestday16.netlify.app/" "_blank">Day-16 (Meme Card react app)</a></li>
-  <li><a href="https://rishabhhmishra.github.io/csb-58bmc/" "_blank">Day-17 Calorie Meter </a></li>
+  <li><a href="https://rishabhhmishra.github.io/Day17/" "_blank">Day-17 Calorie Meter </a></li>
+ <a href="https://codesandbox.io/s/github/rishabhhmishra/Devsnest-React-THAs" "_blank">Codesandbox Code</a>
  <li>Comming Soon..</li>
 
 </ul>
